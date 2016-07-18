@@ -17,7 +17,7 @@ public class Manager extends Employee {
   }
   @Override
   public String getDetails(){
-      return age + " "+ firstName+" "+age +" "+lastName;
+      return age + " "+ firstName+" departeamento: "+ department +" "+lastName;
   }
   @Override
   public Manager getThis(){
