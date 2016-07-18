@@ -15,5 +15,13 @@ public class Manager extends Employee {
     Manager e = new Manager();
     e.firstName = "Edgar";
   }
+  @Override
+  public String getDetails(){
+      return age + " "+ firstName+" "+age +" "+lastName;
+  }
+  @Override
+  public Manager getThis(){
+      return this;
+  }
 
 }
