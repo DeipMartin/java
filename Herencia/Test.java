@@ -23,6 +23,10 @@ public class TestEmploye {
         e2.id=23213;
         e2.firstName="diana";
         e2.lastName="gutierrez";
+        
+        Manager m3 =(Manager) e2;
+        m3.department = "operaciones"; 
+        
         //invocacion virtual de metodos!! 
         System.out.println(e2.getDetails());
     }
