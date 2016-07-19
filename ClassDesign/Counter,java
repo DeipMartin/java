@@ -1,0 +1,29 @@
+
+package Static;
+
+public class Counter {
+    private int serialNum;
+    private static int counter;
+
+    public Counter() {
+        this.serialNum = ++counter;
+    }
+
+    public int getSerialNum() {
+        return serialNum;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setSerialNum(int serialNum) {
+        this.serialNum = serialNum;
+    }
+
+    public void setCounter(int counter) {
+        Counter.counter = counter;
+    }
+    
+    
+}
