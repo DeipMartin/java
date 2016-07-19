@@ -49,6 +49,10 @@ public class MyDate {
                 }else{
                     throw new IllegalArgumentException("dia"+"invalido para el mes"+ this.month);
                 }
+                if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0)))
+                	System.out.println("El año es bisiesto");
+                else
+                	System.out.println("El año no es bisiesto");
                 break;
         }
     }
