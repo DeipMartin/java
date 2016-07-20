@@ -7,6 +7,7 @@ public enum Cafe {
     private double mililitros;
     
     // los constructores de enum siempre son private
+    //al ser un constructor privado no me permite generar instancias " new "
     private Cafe(double precio, double mililitros) {
         this.precio = precio;
         this.mililitros = mililitros;
