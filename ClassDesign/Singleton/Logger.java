@@ -4,8 +4,8 @@ public class Logger {
     private static Logger myInstance;
     
     private Logger(){}
-    
-    public static Logger getInstance(){
+    // necesitamos implementar synchonized para evitar que las referencias cambien
+    public synchronized static Logger getInstance(){
         if(myInstance==null){myInstance = new Logger();}
         return myInstance;
     }
