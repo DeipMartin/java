@@ -7,3 +7,6 @@ http://www.mindsmapped.com/java-j2ee-training-online/pdf_files/java_practice_pro
 https://octodex.github.com/
 https://www.youtube.com/watch?v=77Kw5P5Y73U
 https://www.youtube.com/watch?v=wKz3B67hXI4
+https://www.google.com.mx/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=principio%20de%20dise%C3%B1o%20solid
+https://www.google.com.mx/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=principio%20de%20composicion
+https://www.google.com.mx/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=principio%20de%20comodidad
