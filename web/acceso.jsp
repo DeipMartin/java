@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
     String email = request.getParameter("email");
+    String password = request.getParameter("password");
     System.out.println("email:" + email);
 %>
 <!DOCTYPE html>
@@ -10,6 +11,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>email: <%=email%></h1>
     </body>
 </html>
