@@ -15,3 +15,4 @@ https://www.youtube.com/watch?v=UY_iH4ia0a4
 https://www.youtube.com/watch?v=NV5YjY9ZV0o
 http://www.dopeless-design.de/dopeless-rotate-jquery-plugin-360-degrees-product-viewer.html
 http://www.mathieusavard.info/threesixty/demo.html
+http://www.openstudio.fr/lab/jQuery-virtual-tour,67.html?lang=en
